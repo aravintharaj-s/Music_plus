@@ -93,7 +93,7 @@ p{
     font-size: 1rem;
     background-color: #141727;
     font-family: 'Inconsolata', monospace;
-}
+} 
 .login > .loginbtn {
     background: rgba(255, 255, 255, 0.007);
     border:1px solid #5c6574;

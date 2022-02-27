@@ -29,7 +29,6 @@ app.listen(PORT,()=>{
     console.log(`server at ${PORT}`);
 });
 
-
 /*,{
     useNewUrlParser:true,
     useCreateIndex:true,

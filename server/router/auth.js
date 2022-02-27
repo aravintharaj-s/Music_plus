@@ -10,7 +10,7 @@ router.get('/',(req,res)=>{
     res.send('Hello from server auth js');
 });
 
-router.post('/register',async (req,res)=>{
+router.post('/signup',async (req,res)=>{
 
     const {name,username,password,cpassword}=req.body;
 
