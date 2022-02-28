@@ -1,5 +1,5 @@
 import './NavBar.css';
-import { BsMusicPlayer } from 'react-icons/bs';
+import { RiNeteaseCloudMusicLine } from 'react-icons/ri';
 
 const NavBar = () => {
     return ( 
@@ -8,8 +8,8 @@ const NavBar = () => {
                 <a href="/"><img alt="logo"  src={icon}  width="75px"/></a>
             </div> */}
             <div className="logo" style={{marginLeft:'12px'}}>
-                <BsMusicPlayer style={{fontSize:'28px'}}/>
-                <div style={{marginRight:'auto',marginLeft:5,fontSize:38}}>Music+</div>
+                <RiNeteaseCloudMusicLine style={{fontSize:'37px'}}/>
+                <div style={{marginRight:'auto',marginLeft:10,fontSize:31}}>Music+</div>
             </div>
             
             <ul className="ul-list">
