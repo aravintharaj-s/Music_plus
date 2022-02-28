@@ -65,13 +65,14 @@ const Signin = () => {
             
             <div className="loginbtn" onClick={loginUser}>Login</div>
         </form>
-        <div className="reg">
-            New to Music+ ?
-            <a href='/signup'>Create account</a>
-        </div>
-        <div className="reg gbtnCont" >
-                <FaGoogle style={{fontSize:'17px'}}/>
-                <div className="gbtn">Continue with Google</div>
+        
+            <div className="reg gbtnCont" >
+                    <FaGoogle style={{fontSize:'17px'}}/>
+                    <div className="gbtn">Continue with Google</div>
+            </div>
+            <div className="reg">
+                New to Music+ ?
+                <a href='/signup'>Create account</a>
             </div>
         </div>
      );

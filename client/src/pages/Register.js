@@ -74,15 +74,16 @@ const Register = () => {
                 </div>
                 <div className="loginbtn" onClick={PostData} >Register</div>
                
-            </form>      
+            </form>    
+            <div className="reg gbtnCont" >
+                <FaGoogle style={{fontSize:'17px'}}/>
+                <div className="gbtn">Continue with Google</div>
+            </div>     
             <div className="reg">
                 Already in Music+? 
                 <a href='/signin'>SignIn</a>
             </div>
-            <div className="reg gbtnCont" >
-                <FaGoogle style={{fontSize:'17px'}}/>
-                <div className="gbtn">Continue with Google</div>
-            </div>   
+            
         </div>
      );
 }

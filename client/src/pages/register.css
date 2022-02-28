@@ -40,17 +40,16 @@ p{
 
 .reg{
     width: 350px;
-    background: rgba(255, 255, 255, 0.104);
-    border: 1px solid #5c6574;
+    /* background: rgba(255, 255, 255, 0.104);
+    border: 1px solid #5c6574; */
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 6px;
     padding: 1rem;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 12px;
     font-size: 15px;
     color:rgb(151, 148, 148);
-    
 }
 
 .login {
@@ -73,9 +72,7 @@ p{
 .reg a:hover{
     text-decoration:underline;
 }
-.reg:hover{
-    border:1px solid rgb(0,207,200);
-}
+
 .inputCont
 {
     display: flex;
@@ -135,4 +132,10 @@ input:focus
    display: flex;
    justify-content: center;
    align-items: center;
+
+    background: rgba(255, 255, 255, 0.104);
+    border: 1px solid #5c6574;
+}
+.gbtnCont:hover{
+    border:1px solid rgb(0,207,200);
 }
