@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import ParticleBackground from '../components/ParticleBackground';
 import './signin.css';
+import { FaGoogle } from 'react-icons/fa'
 
 const Signin = () => {
     const history=useHistory;
@@ -68,6 +69,10 @@ const Signin = () => {
             New to Music+ ?
             <a href='/signup'>Create account</a>
         </div>
+        <div className="reg gbtnCont" >
+                <FaGoogle style={{fontSize:'17px'}}/>
+                <div className="gbtn">Continue with Google</div>
+            </div>
         </div>
      );
 }

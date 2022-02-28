@@ -73,6 +73,9 @@ p{
 .reg a:hover{
     text-decoration:underline;
 }
+.reg:hover{
+    border:1px solid rgb(0,207,200);
+}
 .inputCont
 {
     display: flex;
@@ -123,4 +126,13 @@ input:focus
     outline-offset: 0px;
     outline: none;
 }
-  
+.gbtn
+{
+    margin-left: 12px;
+}
+.gbtnCont
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

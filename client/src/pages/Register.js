@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ParticleBackground from '../components/ParticleBackground';
 import './register.css';
 import { useHistory} from 'react-router-dom';
+import { FaGoogle } from 'react-icons/fa'
 
 const Register = () => {
     const history=useHistory();
@@ -53,30 +54,35 @@ const Register = () => {
         <div className="body">
             <ParticleBackground/>
             <form method='POST' className='login' id='register-form'>
-            <h2 style={{color:'white',margin:'10px',textAlign:'center'}}>SignUp</h2>
-            
-            <div className="inputCont">
-                <p>Name</p>
-                <input type="text" name="name"  placeholder="Your Name" value={user.name} onChange={handleChange}></input>
+                <h2 style={{color:'white',margin:'10px',textAlign:'center'}}>SignUp</h2>
+                
+                <div className="inputCont">
+                    <p>Name</p>
+                    <input type="text" name="name"  placeholder="Your Name" value={user.name} onChange={handleChange}></input>
+                </div>
+                <div className="inputCont">
+                    <p>Username</p>
+                    <input type="text" name="username"  placeholder="Your Email" value={user.username} onChange={handleChange} ></input>
+                </div>
+                <div className="inputCont">
+                    <p>Password</p>
+                    <input type="password" name="password"  placeholder="Your Password" value={user.password} onChange={handleChange} ></input>
+                </div>
+                <div className="inputCont">
+                    <p>Verify Pasword</p>
+                    <input type="password" name="cpassword"  placeholder="Re-enter Password" value={user.cpassword} onChange={handleChange} ></input>
+                </div>
+                <div className="loginbtn" onClick={PostData} >Register</div>
+               
+            </form>      
+            <div className="reg">
+                Already in Music+? 
+                <a href='/signin'>SignIn</a>
             </div>
-            <div className="inputCont">
-                <p>Username</p>
-                <input type="text" name="username"  placeholder="Your Email" value={user.username} onChange={handleChange} ></input>
-            </div>
-            <div className="inputCont">
-                <p>Password</p>
-                <input type="password" name="password"  placeholder="Your Password" value={user.password} onChange={handleChange} ></input>
-            </div>
-            <div className="inputCont">
-                <p>Verify Pasword</p>
-                <input type="password" name="cpassword"  placeholder="Re-enter Password" value={user.cpassword} onChange={handleChange} ></input>
-            </div>
-            <div className="loginbtn" onClick={PostData} >Register</div>
-            </form>        
-        <div className="reg">
-            Already in Music+? 
-            <a href='/signin'>SignIn</a>
-        </div>
+            <div className="reg gbtnCont" >
+                <FaGoogle style={{fontSize:'17px'}}/>
+                <div className="gbtn">Continue with Google</div>
+            </div>   
         </div>
      );
 }
