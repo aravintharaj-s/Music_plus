@@ -1,4 +1,5 @@
 import './NavBar.css';
+import { BsMusicPlayer } from 'react-icons/bs';
 
 const NavBar = () => {
     return ( 
@@ -6,7 +7,11 @@ const NavBar = () => {
             {/* <div className="logo">
                 <a href="/"><img alt="logo"  src={icon}  width="75px"/></a>
             </div> */}
-            <div style={{marginRight:'auto',marginLeft:10,fontSize:38,letterSpacing:2}}>Music+</div>
+            <div className="logo" style={{marginLeft:'12px'}}>
+                <BsMusicPlayer style={{fontSize:'28px'}}/>
+                <div style={{marginRight:'auto',marginLeft:5,fontSize:38}}>Music+</div>
+            </div>
+            
             <ul className="ul-list">
                 <li><a href='/signup' className='nav-item-'>Register</a></li>
                 <li><a href='/signin' className='nav-item-'>SignIn</a></li>

@@ -19,6 +19,7 @@ function HeroSection() {
               zindex:-1
           }}
         ><source src={require('../videos/video.mp4')} type='video/mp4'/></video>
+        
       <h1 className='title' style={{fontFamily:'pacifico' /*pacifico*/ }}>Music+</h1>
       
       <p><Typewriter
