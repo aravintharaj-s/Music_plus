@@ -11,7 +11,13 @@ app.use(express.json());
 const PORT=process.env.PORT;
 /*const User=require('./model/userSchema')*/
 
-app.use(require('./router/auth'));
+// app.use(require('./router/auth'));
+
+app.get('/',(req,res)=>{
+
+    res.send('helllo');
+    console.log(req.url);
+});
 
 /*app.get('/about',midddleware,(req,res)=>{
     res.send('Hello from about server app js');
@@ -24,6 +30,13 @@ app.get('/signin',(req,res)=>{
 app.get('/signup',(req,res)=>{
     res.send('Hello from signup page server');
 });
+
+app.use((req,res)=>
+{
+   res.status(404).send("404 Error");
+
+});
+
 
 app.listen(PORT,()=>{
     console.log(`server at ${PORT}`);

@@ -50,19 +50,20 @@ p{
     margin-top: 12px;
     font-size: 15px;
     color:rgb(151, 148, 148);
+    transition: all 250ms linear 0ms;
 }
 
 .login {
     width: 350px;
     background: rgba(255, 255, 255, 0.103);
-    border: 1px solid #5c6574;
+    /* border: 1px solid #5c6574; */
     box-shadow: 0 2px 4px rgba(209, 203, 203, 0.1), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 6px;
     padding: 1rem;
     align-items: center;
     text-align: center;
     padding-top: 10px;
-    
+    backdrop-filter: blur(5px);
 }
 .reg a{
     margin-left: 8px;
@@ -107,7 +108,7 @@ p{
     cursor: pointer;
     margin-left: 95px;
     margin-top: 20px;
-    transition: all 100ms linear 0ms;
+    transition: all 200ms linear 0ms;
 }
 .login > .loginbtn:hover {
     border:2px solid rgb(0,207,200);
@@ -135,7 +136,9 @@ input:focus
 
     background: rgba(255, 255, 255, 0.104);
     border: 1px solid #5c6574;
+    backdrop-filter: blur(5px);
 }
 .gbtnCont:hover{
-    border:1px solid rgb(0,207,200);
+    transition: all 100ms linear 0ms;
+   color: rgb(0,207,200);
 }

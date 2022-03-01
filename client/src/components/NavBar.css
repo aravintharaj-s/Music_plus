@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Praise&family=Roboto+Mono&family=Satisfy&family=Teko&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Praise&family=Roboto+Mono&family=Roboto+Slab&family=Satisfy&family=Teko&family=Yellowtail&display=swap');
 .navbar {
     height: 100px;
     display: flex;
@@ -7,7 +7,7 @@
     width: 100%;
     height: 80px;
       
-    font-family: 'Satisfy', cursive;
+    font-family: 'Roboto Slab', serif;
     color: #eeeeee;    
   }
   
