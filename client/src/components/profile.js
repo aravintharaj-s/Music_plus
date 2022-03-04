@@ -11,11 +11,9 @@ function Profile() {
             User
             <CgChevronDown style={{fontSize:'20px',color:'white',margin:"5px"}}/>
             {isActive&&(<div className="content">
-                <div className="item">Account</div>
+            <a href="./profile" style={{textDecoration:"none",color:'white'}}> <div className="item"> Profile</div></a>
                 <hr style={{backgroundColor: '#00ffff',margin:'0px',padding:'0px',height:'2px'}}/>
-                <div className="item">Profile</div>
-                <hr style={{backgroundColor: '#00ffff',margin:'0px',padding:'0px',height:'2px'}}/>
-                <div className="item">Logout</div>
+                <a href="./" style={{textDecoration:"none",color:'white'}}> <div className="item"> Logout</div></a>
             </div>)}
         </div>
     </div>
