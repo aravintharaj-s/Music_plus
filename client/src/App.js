@@ -6,6 +6,7 @@ import Signup from './pages/Register';
 import Signin from './pages/Signin';
 import Page404 from './pages/Page404';
 import ParticleBackground from './components/ParticleBackground'
+import explore from './pages/explore';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path='/'  component={Home} />
                 <Route path='/signup' component={Signup}/>
                 <Route path='/signin' component={Signin}/>
+                <Route path='/explore' component={explore}/>
                 <Route component={Page404}/>
                 {/* <Route render={() => <Redirect to="/" />} /> */}
               </Switch>

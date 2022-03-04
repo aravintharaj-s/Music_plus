@@ -1,0 +1,25 @@
+.sidebar{
+    height: 100%;
+    width:35%;
+    background-color: black;
+    margin-left: 0;
+    margin-right: 65%;
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+.si:hover{
+    color: aqua;
+}
+.si{
+    color: white;
+    text-decoration: none;
+}
+.playlist{
+    color: white;
+    margin: 10px;
+}
