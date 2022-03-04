@@ -1,17 +1,19 @@
 import React from 'react';
+
+
 import './sidebar.css';
 import { CgMusic,CgHome,CgSearch,CgNotes,CgAddR,CgHeart,CgHeadset,CgCardHearts} from 'react-icons/cg';
 
 function Sidebar() {
   return (
-    <div className="sidebar">
+    <div className="sidebar">  
         <div className="logo" style={{margin:'52px',marginRight:'40px'}}>
             <CgMusic style={{fontSize:'40px',color:'white'}}/>
             <div style={{marginRight:'auto',marginLeft:10,fontSize:30,fontWeight:700,color:'white'}}>Music+</div>
         </div>
         <div className="content" style={{marginLeft:'12px'}}>
             <div className="item" style={{ display: 'contents',margin:'20px',marginTop:'30px' }}>
-                <div className="s" style={{display: 'flex',margin: '20px'}}>
+                <div className="s" style={{display: 'flex',margin: '20px',}}>
                     <CgHome style={{fontSize:'20px',color:'white'}}/>
                     <div style={{marginRight:'auto',marginLeft:10,fontSize:20,fontWeight:700,color:'white'}}><a href='' className='si'>Home</a></div>
                 </div>
