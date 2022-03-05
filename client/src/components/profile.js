@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './profile.css'
+import './Profile.css'
 import {CgUser,CgChevronDown} from 'react-icons/cg';
 
 function Profile() {

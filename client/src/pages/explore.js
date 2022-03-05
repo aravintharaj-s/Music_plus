@@ -1,11 +1,11 @@
 import ParticleBackground from '../components/ParticleBackground';
-import './explore.css';
-import Sidebar from '../components/sidebar';
-import Profile from '../components/profile';
+import './Explore.css';
+import Sidebar from '../components/Sidebar';
+import Profile from '../components/Profile';
 
 const Explore = () => {
         return ( 
-        <div className="body">
+        <div className="body1">
             <ParticleBackground/>      
             <Sidebar />     
             <Profile /> 

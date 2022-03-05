@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import './sidebar.css';
+import './Sidebar.css';
 import { CgMusic,CgHome,CgSearch,CgNotes,CgAddR,CgHeart,CgHeadset,CgCardHearts} from 'react-icons/cg';
 
 function Sidebar() {
